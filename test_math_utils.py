@@ -9,7 +9,6 @@ def test_multiply(a, b):
     a,b = 2,3
     if not isinstance(a, (int, float)) or not isinstance(b, (int, float)):
         raise ValueError("Both arguments must be numbers")
-    return a * b
      assert a * b == 6
     
     try:
