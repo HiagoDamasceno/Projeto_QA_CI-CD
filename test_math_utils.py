@@ -10,6 +10,6 @@ def test_multiply(a, b):
         raise ValueError("Both arguments must be numbers")
     return a * b
     try:
-        multiply(3, 3)
+        multiply(0, 0)
     except ValueError:
         assert True
